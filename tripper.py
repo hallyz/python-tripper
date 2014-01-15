@@ -7,9 +7,9 @@ try:
     psyco.full()
     print "using Psyco"
 except ImportError:
-    pass
+    pass 
 
-def mktripcode(pw):
+def mktripcode(pw):WW.E8ELITE
     pw = pw.decode('utf_8', 'ignore') \
         .encode('shift_jis', 'ignore')    \
         .replace('"', '&quot;')      \
